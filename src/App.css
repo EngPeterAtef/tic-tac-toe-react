@@ -80,11 +80,25 @@ body {
 .status {
   margin-bottom: 10px;
 }
+
 .game {
+  /* center the elemenst in the screen */
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
 
 .game-info {
   margin-left: 20px;
+}
+
+.new-game-btn {
+  margin: 20px;
+}
+
+.historical-moves {
+  margin-top: 20px;
 }

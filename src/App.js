@@ -84,16 +84,9 @@ export default function Game() {
       }
     }
   }
-  // function newGame() {
-  //   setHistory([Array(9).fill(null)]);
-  //   setPlayer("X");
-  // }
   return (
     <div className="game">
       <h2>{finalState}</h2>
-      {/* <button onClick={newGame} className="new-game-btn">
-        Start new game
-      </button> */}
       <div className="status">Next player: {player}</div>
       <div className="game-board">
         <Board
